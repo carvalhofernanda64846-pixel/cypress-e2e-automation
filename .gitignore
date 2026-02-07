@@ -34,3 +34,10 @@ desktop.ini
 *.tmp
 *.temp
 
+# Arquivos de instrução local (não necessários no repositório)
+SETUP_GIT.md
+PASSO_A_PASSO.md
+COMANDOS_GIT.txt
+INSTRUCOES_GIT.txt
+CONFIGURAR_GIT.txt
+
