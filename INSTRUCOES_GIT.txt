@@ -1,0 +1,48 @@
+═══════════════════════════════════════════════════════════════
+  GUIA RÁPIDO - CONFIGURAR GIT E ENVIAR PARA GITHUB
+═══════════════════════════════════════════════════════════════
+
+PASSO 1: Verificar se Git está instalado
+──────────────────────────────────────────
+Abra o PowerShell ou CMD e digite:
+  git --version
+
+Se aparecer um erro, instale o Git:
+  https://git-scm.com/download/win
+
+
+PASSO 2: Configurar Git (apenas primeira vez)
+──────────────────────────────────────────────
+  git config --global user.name "Seu Nome"
+  git config --global user.email "seu-email@exemplo.com"
+
+
+PASSO 3: Na pasta do projeto, executar:
+────────────────────────────────────────
+  git init
+  git add .
+  git commit -m "feat: adiciona testes E2E com Cypress"
+
+
+PASSO 4: Criar repositório no GitHub
+────────────────────────────────────
+1. Acesse: https://github.com
+2. Clique em "New" ou "New repository"
+3. Nome do repositório: (ex: cypress-e2e-tests)
+4. NÃO marque "Add a README file"
+5. Clique em "Create repository"
+
+
+PASSO 5: Conectar e enviar
+───────────────────────────
+Copie e cole os comandos que aparecem no GitHub (será algo como):
+
+  git remote add origin https://github.com/SEU-USUARIO/SEU-REPO.git
+  git branch -M main
+  git push -u origin main
+
+
+═══════════════════════════════════════════════════════════════
+  DICA: Use o arquivo SETUP_GIT.md para instruções detalhadas
+═══════════════════════════════════════════════════════════════
+
