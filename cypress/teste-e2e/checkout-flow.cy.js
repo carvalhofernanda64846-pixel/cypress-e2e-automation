@@ -1,3 +1,4 @@
+// Teste para ativar o rôbo do Github Actions
 // Configurações
 const CONFIG = {
   credentials: {
