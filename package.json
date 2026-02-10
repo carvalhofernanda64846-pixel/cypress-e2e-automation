@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Testes end-to-end automatizados com Cypress",
   "scripts": {
-    "cy:open": "node_modules\\.bin\\cypress.cmd open",
-    "cy:run": "node_modules\\.bin\\cypress.cmd run",
-    "test": "node_modules\\.bin\\cypress.cmd run",
-    "test:headed": "node_modules\\.bin\\cypress.cmd run --headed"
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed"
   },
   "devDependencies": {
     "cypress": "^13.6.0"

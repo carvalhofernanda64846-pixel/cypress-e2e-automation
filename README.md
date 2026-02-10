@@ -47,10 +47,22 @@ cypress/
 └── support/
 ```
 
+## CI/CD Pipeline
+
+Este projeto possui uma **esteira de CI/CD automatizada** com GitHub Actions que:
+
+- Executa todos os testes automaticamente a cada push
+- Valida o código em um ambiente controlado
+- Gera relatórios dos testes
+- Garante que apenas código funcional seja integrado
+
+O workflow está configurado em [`.github/workflows/main.yml`](.github/workflows/main.yml)
+
 ## Tecnologias
 
 - Cypress
 - Node.js
+- GitHub Actions (CI/CD)
 
 ---
 
