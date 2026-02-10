@@ -1,0 +1,12 @@
+node_modules/
+npm-debug.log
+*.log
+.env
+.env.local
+.DS_Store
+cypress/videos/
+cypress/screenshots/
+reports/
+dist/
+build/
+.vscode/settings.json
