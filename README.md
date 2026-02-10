@@ -37,15 +37,7 @@ npm run cy:open
 npm test
 ```
 
-## Estrutura
-
-```
-cypress/
-├── teste-e2e/
-│   └── checkout-flow.cy.js    # Teste principal
-├── fixtures/
-└── support/
-```
+Este projeto possui uma esteira de CI/CD integrada via GitHub Actions, executando testes regressivos automatizados a cada novo deploy, garantindo a integridade das regras de negócio críticas.
 
 ## Tecnologias
 
