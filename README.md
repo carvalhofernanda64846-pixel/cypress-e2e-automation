@@ -37,8 +37,6 @@ npm run cy:open
 npm test
 ```
 
-Este projeto possui uma esteira de CI/CD integrada via GitHub Actions, executando testes regressivos automatizados a cada novo deploy, garantindo a integridade das regras de negócio críticas.
-
 ## CI/CD Pipeline
 
 Este projeto possui uma **esteira de CI/CD automatizada** com GitHub Actions que:
