@@ -8,8 +8,7 @@
     "test": "cypress run",
     "test:headed": "cypress run --headed"
   },
-  "devDependencies": {
+  "dependencies": {
     "cypress": "^13.6.0"
   }
 }
-

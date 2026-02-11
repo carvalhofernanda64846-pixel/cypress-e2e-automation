@@ -22,11 +22,16 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Clear Cypress Cache
+        run: rm -rf ~/.cache/Cypress || true
+
       - name: Install dependencies
         run: npm ci
 
       - name: Run Cypress tests
         run: npm test
+        env:
+          CI: true
 
       - name: Upload test videos
         if: always()
